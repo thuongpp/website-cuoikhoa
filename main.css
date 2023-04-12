@@ -386,17 +386,13 @@ body {
 }
 
 .text-35 li .titulo {
-    color: black;
-    font-size: 1.1em !important;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    transform: scale(1);
-    transition: 0.5s;
-    transition-delay: 0s;
+    display: None;
 }
 
-.text-35 li:hover .tutilo{
-    /* transform không ăn */
-    transform: scale(1);
-    transition-delay: 0.25s;
+li:hover .titulo {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
 }
