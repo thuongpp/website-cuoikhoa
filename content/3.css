@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto",sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 7%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: violet;
+    text-decoration: none;
+    /* font-weight: 600; */
+    margin-right: auto;
+    font-weight: bold;
+    width: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: 500px;
+    margin-right: 35px;
+    font-weight: bold
+}
+
+#mode-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.nav a {
+    position: relative;
+    padding: 10px;
+}
+
+.nav a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    background-color: #f33f3f;
+    height: 3px;
+    bottom: 0;
+    right: 0;
+    transition: 0.5s;
+}
+
+.nav a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+}
+
+.home-content {
+    background-image: url(https://ccdvietnam.org/wp-content/uploads/2019/12/breadcrumbs-bg.jpg);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.nd {
+    color: white;
+    background-color: #333;
+    font-size: 50px;
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 0 10px;
+}
