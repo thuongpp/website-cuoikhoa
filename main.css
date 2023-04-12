@@ -21,6 +21,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     margin-right: auto;
+    font-weight: bold;
 }
 
 .nav a {
@@ -29,6 +30,7 @@ body {
     color: white;
     font-weight: 500px;
     margin-right: 35px;
+    font-weight: bold
 }
 
 #mode-icon {
@@ -125,6 +127,7 @@ body {
 
 .text:hover .text-1 img {
     transform: scale(1.2,1.2);
+    transition: 0.8s;
 }
 
 .text-1 {
@@ -274,5 +277,123 @@ body {
 
 .text-31 img {
     width: 100%;
+    height: 552px;
     object-fit: cover;
+}
+
+.text-32 {
+    height: 552px;
+    text-align: left;
+}
+
+.text-33 {
+    margin-top: 15ﬁ0px;
+    padding: 0 30px;
+    color: white;
+    font-family: "Roboto",sans-serif;
+}
+
+.text-33 h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-33 p {
+    font-size: 19px;
+    margin-top: 5px;
+    padding-right: 130px;
+}
+
+.text-34 {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.text-35 {
+    position: relative;
+    display: flex;
+    gap: 25px;
+}
+
+.text-35 li {   
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.text-35 li:hover{
+    width: 200px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0);
+}
+
+.text-35 li::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.text-35 li:hover::before {
+    opacity: 1;
+}
+
+.text-35 li ::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    background-color: color;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: -1;
+    filter: blur(15px);
+}
+
+.text-35 li:hover ::after {
+    opacity: 0.5;
+}
+
+.text-35 li i{
+    font-size: 1.75em !important;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+
+.text-35 li:hover i {
+    transform: scale(0);
+    font-size: 1.75em;
+    transition-delay: 0.25s;
+}
+
+.text-35 li span {
+    position: absolute;
+}
+
+.text-35 li .titulo {
+    color: black;
+    font-size: 1.1em !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transform: scale(1);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.text-35 li:hover .tutilo{
+    /* transform không ăn */
+    transform: scale(1);
+    transition-delay: 0.25s;
 }
