@@ -1,0 +1,263 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto",sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: auto;
+    padding: 20px 7%;
+    background-color: #1DAAE1;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    line-height: 37px;
+    color: #333;
+    text-decoration: none;
+    margin-right: 71px;
+    font-weight: bold;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    margin-right: 35px;
+    font-weight: bold;
+    width: 100%;
+}
+
+#mode-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.nav a {
+    position: relative;
+    padding: 10px;
+}
+
+.nav a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    background-color: #333;
+    height: 3px;
+    bottom: 0;
+    right: 0;
+    transition: 0.5s;
+}
+
+.nav a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+    background-color: whitesmoke;
+}
+
+.text-2 {
+    width: 970px;
+    padding: 30px 100px;
+    text-align: center;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1), 0 3px 4px rgba(0,0,0,0.14), 0 1px 8px rgba(0,0,0,0.12);
+    border-radius: 7px;
+    margin: -30px auto 0px;
+    background-color: #ffffff;
+}
+
+.text-2 h1 {
+    font-weight: 700px;
+    line-height: 50px;
+    font-size: 42px;
+    margin: 0 0 9px;
+}
+
+.text-2 p {
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "PT Serif",serif;
+    margin: 0;
+}
+
+.text-3 {
+    background-image: url(/image/nhungcauchuyen:hinh-1.jpeg);
+    width: 100%;
+    height: 640px;
+}
+
+.text-4 {
+    padding: 60px 0;
+}
+
+.text-5 {
+    display: flex;
+    gap: 30px;
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.text-6 {
+    display: flex;
+    width: 870px;
+    height: 556px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.text-7 {
+    object-fit: cover;
+}
+
+.text-8 {
+    padding: 20px 32px 43px;
+}
+
+.text-9 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.text-9 i {
+    margin-right: 5px;
+}
+
+.text-10 h5 {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.text-10 p {
+    margin: 8px 0 32px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.span-noidung {
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* không dùng bottom được */
+    /* bottom: 8px;*/
+    padding-left: 32px;
+}
+
+.span-noidung p {
+    position: absolute;
+    bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text-6:hover {
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,0.12), 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12);
+    border-radius: 7px;
+}
+
+.text-6:hover .text-7 img {
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+}
+
+.text-7 {
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.text-7 img {
+    width: 564px;
+    height: 556px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+    display: block;
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+}
+
+.text-12 {
+    height: 556px;
+    width: 306px;
+}
+
+.text-30 {
+    width: 270px;
+    height: 556px;
+    text-decoration: none;
+    color: #333;
+}
+
+.text-30:hover{
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,0.12), 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.text-30:hover .text-20 img {
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+}
+
+.text-20 img {
+    width: 270px;
+    height: 200px;
+}
+
+.text-20 {
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.text-20 img {
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+    display: block;
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+}
+
+.text-21 {
+    background-color: white;
+    height: 356px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.text-23 {
+    width: 246px;
+    padding: 20px 12px 27px;    
+}
+
+.noidung {
+    margin: 8px 0 32px;
+    font-size: 16px;
+}
+
+.tieude {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: normal;
+    margin: 0;
+}

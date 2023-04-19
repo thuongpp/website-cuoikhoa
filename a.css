@@ -1,0 +1,410 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto",sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 7%;
+    background-color: #1DAAE1;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #333;
+    text-decoration: none;
+    /* font-weight: 600; */
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    /* font-weight: 500px; */
+    margin-right: 35px;
+    font-weight: bold;
+    width: 100%;
+}
+
+#mode-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.nav a {
+    position: relative;
+    padding: 10px;
+}
+
+.nav a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    background-color: #333;
+    height: 3px;
+    bottom: 0;
+    right: 0;
+    transition: 0.5s;
+}
+
+.nav a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.text {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.text-1 {
+    text-align: center;
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,0.12), 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12);
+    border-radius: 7px;
+    padding: 25px 100px;
+
+}
+
+.text-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.text-2 p {
+ margin-left: 5px;
+ color: #595959;
+}
+
+.text-3 {
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.text-4 {
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "PT Serif",serif;
+    padding-top: 10px;
+}
+
+.text-5 {
+    color: #595959;
+    padding-top: 20px;
+}
+
+.text-6 {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 770px 370px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.text-8 {
+    margin-bottom: 40px;
+}
+
+.text-8 img {
+    width: 100%;
+    height: 515px;
+    object-fit: cover;
+}
+
+.text-10 {
+    font-size: 19px;
+    margin-bottom: 18px;
+}
+
+.text-11 {
+    font-weight: bold;
+}
+
+.text-12 ul li{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+
+.text-13 {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.text-15 h3 {
+    font-size: 30px;
+    padding: 20px;
+    line-height: 38px;
+}
+
+.text-15 {
+    margin-bottom: 30px;
+    background-color: #f1f1f1;
+}
+
+.text-16 {
+    padding: 0 20px 30px;
+}
+
+.text-17 {
+    padding-bottom: 30px;
+}
+
+.text-19 {
+    color: #1DAAE1;
+    margin: 0 auto;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border-width: 1px 0;
+    border-color: #adadad;
+    padding: 20px;
+}
+
+.text-20 {
+    padding: 0 20px;
+}
+
+.text-21 {
+    padding: 20px;
+    color: #1DAAE1;
+    font-weight: bold;
+}
+
+.text-22 {
+    padding: 50px 0 70px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.text-22 P {
+    width: 760px;
+    margin: 0 auto;
+    font-size: 19px;
+}
+
+.text-23 {
+    text-align: center;
+    padding-top: 60px;
+    background-color: #d3dbdf;
+}
+
+.text-23 h1 {
+    font-size: 34px;
+    margin-bottom: 50px;
+    line-height: 42px;
+}
+
+.text-24 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.text25 {
+    width: 270px;
+    height: 520px;
+    background-color: white;
+    border-radius: 7px;
+    /* padding: 2px; */
+}
+
+.text25:hover {
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,0.12), 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.text25:hover .text26 img {
+    transform: scale(1.2,1.2);
+    transition: 0.8s;
+}
+
+.text26 {
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text26 img {
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text27 {
+    padding: 20px 12px 43px;
+    text-align: left;
+}
+
+.noidung {
+    margin: 8px 0 32px;
+    font-size: 16px;
+}
+
+/* .span-noidung {
+    position: relative;
+    display: flex;
+    align-items: center;
+    không dùng bottom được
+    bottom: 8px;
+} */
+
+.span-noidung {
+    position: relative;
+    bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tieude {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.text-32 {
+    text-align: left;
+    background-color: #1DAAE1;
+    height: 300px;
+}
+
+.text-33 {
+    padding: 40px 30px 0;
+    color: white;
+    font-family: "Roboto",sans-serif;
+}
+
+.text-33 h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-33 p {
+    font-size: 19px;
+    margin-top: 5px;
+    padding-right: 130px;
+    width: 800px;
+}
+
+.text-34 {
+    padding-top: 50px;
+    padding-left: 30px;
+    width: 900px;
+}
+
+.text-35 {
+    position: relative;
+    display: flex;
+    gap: 25px;
+    width: 900px;
+}
+
+.text-35 li {   
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.text-35 li:hover{
+    width: 200px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0);
+}
+
+.text-35 li::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.text-35 li:hover::before {
+    opacity: 1;
+}
+
+.text-35 li ::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    background-color: color;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: -1;
+    filter: blur(15px);
+}
+
+.text-35 li:hover ::after {
+    opacity: 0.5;
+}
+
+.text-35 li i{
+    font-size: 1.75em !important;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+
+.text-35 li:hover i {
+    transform: scale(0);
+    font-size: 1.75em;
+    transition-delay: 0.25s;
+}
+
+.text-35 li span {
+    position: absolute;
+}
+
+.text-35 li .titulo {
+    display: None;
+}
+
+li:hover .titulo {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.text-36 {
+    display: flex;
+}
+
+.text-37 img {
+    width: 540px;
+    height: 300px;
+    object-fit: cover;
+}
