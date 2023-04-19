@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto",sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 7%;
+    background-color: #1DAAE1;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #333;
+    text-decoration: none;
+    /* font-weight: 600; */
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    /* font-weight: 500px; */
+    margin-right: 35px;
+    font-weight: bold;
+    width: 100%;
+}
+
+#mode-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.nav a {
+    position: relative;
+    padding: 10px;
+}
+
+.nav a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    background-color: #333;
+    height: 3px;
+    bottom: 0;
+    right: 0;
+    transition: 0.5s;
+}
+
+.nav a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+}
+
+
+
+.text-2 {
+    width: 1170px;
+    height: 179px;
+    padding: 30px 100px;
+    text-align: center;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1), 0 3px 4px rgba(0,0,0,0.14), 0 1px 8px rgba(0,0,0,0.12);
+    border-radius: 7px;
+    margin: -30px auto 0px;
+    background-color: #ffffff;
+}
+
+.text-2 h1 {
+    font-weight: 700px;
+    line-height: 50px;
+    font-size: 42px;
+    margin: 0 0 9px;
+    font-weight: bold;
+}
+
+.text-2 p {
+    width: 750px;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "PT Serif",serif;
+    margin: 0 auto;
+}
+
+.text-3 {
+    background-image: url(/image/chungtoilamgi:hinh-1.jpeg);
+    width: 100%;
+    height: 640px;
+}
+
+.text-4 {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.text-4 p {
+    width: 780px;
+    font-size: 19px;
+    margin: 0 auto;
+}
+
+#products {
+    background-color: whitesmoke;
+}
+
+.text1 {
+    padding-top: 60px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.text3 {
+    font-size: 34px;
+    text-align: center;
+    line-height: 42px;
+    font-style: normal;
+    padding-bottom: 50px;
+}
+
+.text2 img {
+    height: 90px;
+    background-color: whitesmoke;
+
+}
