@@ -49,7 +49,7 @@ for (let item of products.data) {
     card.appendChild(text27)
 
     let contect = document.createElement("p")
-    contect.innerText = item["price"]
+    contect.innerText = item["contect"]
     contect.classList.add("noidung")
     text27.appendChild(contect)
     card.appendChild(text27)

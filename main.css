@@ -123,6 +123,7 @@ body {
     background-color: white;
     border-radius: 7px;
     /* padding: 2px; */
+    position: relative;
 }
 
 .text:hover {
@@ -175,18 +176,35 @@ body {
 }
 
 .span-noidung {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     /* không dùng bottom được */
     bottom: 8px;
+    width: 125px;
+    padding: 10px 0 ;
 }
 
 .span-noidung p {
-    position: absolute;
-    bottom: 8px;
     font-size: 14px;
     font-weight: bold;
+    margin-left: 5px;
+}
+
+.span-noidung-1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* không dùng bottom được */
+    bottom: 8px;
+    width: 125px;
+    padding: 10px 0 10px 12px;
+}
+
+.span-noidung-1 p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
 }
 
 .tieude {
