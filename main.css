@@ -124,6 +124,7 @@ body {
     border-radius: 7px;
     /* padding: 2px; */
     position: relative;
+    box-shadow: 0 3px 3px -2px rgba(0,0,0,0.1), 0 3px 4px 0 rgba(0,0,0,0.14), 0 1px 8px 0 rgba(0,0,0,0.12);
 }
 
 .text:hover {
@@ -164,9 +165,20 @@ body {
     display: flex;
     font-size: 12px;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 .item i {
+    margin-right: 5px;
+}
+
+.item-1 {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.item-1 i {
     margin-right: 5px;
 }
 

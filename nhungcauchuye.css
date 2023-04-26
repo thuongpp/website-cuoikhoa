@@ -69,13 +69,14 @@ body {
 
 .text-2 {
     width: 970px;
-    height: 119px;
-    padding: 30px 100px;
+    height: 110px;
+    padding: 20px 100px;
     text-align: center;
     box-shadow: 0 3px 3px rgba(0,0,0,0.1), 0 3px 4px rgba(0,0,0,0.14), 0 1px 8px rgba(0,0,0,0.12);
     border-radius: 7px;
     margin: -30px auto 0px;
     background-color: #ffffff;
+    z-index: 2;
 }
 
 .text-2 h1 {
@@ -89,6 +90,7 @@ body {
     font-size: 22px;
     line-height: 30px;
     font-family: "PT Serif",serif;
+    margin: 0;
 }
 
 .text-3 {
@@ -131,6 +133,7 @@ body {
     align-items: center;
     font-size: 12px;
     margin-bottom: 16px;
+    height: 20px;
 }
 
 .text-9 i {
@@ -168,6 +171,8 @@ body {
 
 .text-30-4 {
     position: relative;
+    box-shadow: 0 3px 3px -2px rgba(0,0,0,0.1), 0 3px 4px 0 rgba(0,0,0,0.14), 0 1px 8px 0 rgba(0,0,0,0.12);
+    border-radius: 7px;
 }
 
 .text-6:hover {
@@ -209,6 +214,11 @@ body {
     text-decoration: none;
     color: #333;
     position: relative;
+}
+
+.text-30-5 {
+    box-shadow: 0 3px 3px -2px rgba(0,0,0,0.1), 0 3px 4px 0 rgba(0,0,0,0.14), 0 1px 8px 0 rgba(0,0,0,0.12);
+    border-radius: 7px;
 }
 
 .text-30-5:hover {
@@ -299,6 +309,7 @@ body {
     height: 556px;
     border-radius: 7px;
     position: relative;
+    box-shadow: 0 3px 3px -2px rgba(0,0,0,0.1), 0 3px 4px 0 rgba(0,0,0,0.14), 0 1px 8px 0 rgba(0,0,0,0.12);
 }
 
 .text20:hover {
@@ -335,6 +346,7 @@ body {
     padding-top: 20px;
     padding-left: 12px;
     margin-bottom: 16px;
+    height: 20px;
 }
 
 .text22-1 {
@@ -355,6 +367,7 @@ body {
     padding-left: 12px;
     padding-right: 12px;
     margin-top: 8px;
+    line-height: 21px;
 }
 
 .text24 {
@@ -388,5 +401,88 @@ body {
     font-size: 14px;
     padding: 10px 20px;
     color: white;
+    margin: 0;
+}
+
+.text-60 h1 {
+    font-size: 34px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+#products2 {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    width: 1170px;
+    padding-bottom: 50px;
+}
+
+.text-70 {
+    background-color: whitesmoke;
+}
+
+.text-70 h1 {
+    font-size: 34px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width: 715px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#products3 {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    width: 1170px;
+    padding-bottom: 50px;
+}
+
+.text-80 h1 {
+    font-size: 34px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.text-81 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.text-82 {
+    width: 770px;
+    font-size: 19px;
+    margin: 0 auto;
+    font-family: "Noto Sans",sans-serif !important;
+    padding-bottom: 50px;
+}
+
+.text-82 p {
+    margin: 0;
+    line-height: 31px;
+}
+
+.text-90 {
+    background-color: whitesmoke;
+}
+
+.text-90 h1 {
+    font-size: 34px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
     margin: 0;
 }
