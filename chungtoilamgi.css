@@ -284,6 +284,7 @@ body {
     background-color: #2159a8; 
     color: white;
     border-radius: 7px;
+    position: relative;
 }
 
 .text22 {
@@ -316,10 +317,11 @@ body {
 .text24 {
     display: flex;
     align-items: center;
-    padding-left: 12px;
+    padding: 8px 0 8px 12px;
     font-weight: bold;
-    position: relative;
+    position:absolute;
     font-size: 14px;
+    bottom: 8px;
 }
 
 .text26 {
